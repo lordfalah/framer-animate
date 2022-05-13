@@ -8,7 +8,7 @@ const MainPage = () => {
   const router = useRouter();
 
   return (
-    <Container className="h-screen flex items-center justify-center -mt-12">
+    <Container>
       <motion.main
         initial={{ y: "-20%", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

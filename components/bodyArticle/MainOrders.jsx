@@ -43,10 +43,7 @@ const MainOrders = () => {
       <Modal>Want to make another pizza?</Modal>
 
       <Navbar>Orders</Navbar>
-      <Container
-        className="h-screen flex items-center justify-center -mt-12 
-      p-7"
-      >
+      <Container>
         <motion.article
           variants={contentVariant}
           initial="hidden"

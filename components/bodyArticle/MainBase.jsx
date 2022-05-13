@@ -77,10 +77,7 @@ const MainBase = () => {
   return (
     <Fragment>
       <Navbar>Base</Navbar>
-      <Container
-        className="h-screen flex items-center justify-center -mt-12 
-      p-7"
-      >
+      <Container>
         <AnimatePresence>
           <motion.article
             variants={slideContent}

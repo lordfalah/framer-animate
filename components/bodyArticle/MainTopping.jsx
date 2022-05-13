@@ -74,10 +74,7 @@ const MainTopping = () => {
     <Fragment>
       <Navbar>Toppings</Navbar>
 
-      <Container
-        className="h-screen flex items-center justify-center -mt-12 
-      p-7"
-      >
+      <Container>
         <motion.div variants={slideContent} initial="hidden" animate="show">
           <form onSubmit={handleTopping} className="text-2xl text-white">
             <h1 className="font-normal text-3xl">

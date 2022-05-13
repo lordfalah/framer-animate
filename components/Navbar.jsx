@@ -33,7 +33,7 @@ const pathVariant = {
 const Navbar = ({ children }) => {
   return (
     <motion.nav
-      className="p-8"
+      className="p-8 absolute top-0"
       initial={{ y: "-50%", opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{
