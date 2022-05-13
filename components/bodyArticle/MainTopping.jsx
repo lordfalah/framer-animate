@@ -74,7 +74,7 @@ const MainTopping = () => {
     <Fragment>
       <Navbar>Toppings</Navbar>
 
-      <Container>
+      <Container className="p-7">
         <motion.div variants={slideContent} initial="hidden" animate="show">
           <form onSubmit={handleTopping} className="text-2xl text-white">
             <h1 className="font-normal text-3xl">

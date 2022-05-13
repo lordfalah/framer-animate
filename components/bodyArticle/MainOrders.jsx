@@ -29,7 +29,7 @@ const childContent = {
   },
 
   hidden: {
-    x: 50,
+    x: 25,
     opacity: 0,
   },
 };
@@ -53,7 +53,7 @@ const MainOrders = () => {
           <h1 className="font-normal text-3xl ">Thanks you for orders :)</h1>
           <p className="my-4">You ordered a {selectCategory.name}:</p>
 
-          <ul className=" font-light text-2xl">
+          <ul className="font-light text-2xl">
             {toppings.map((item, idx) => (
               <motion.li variants={childContent} key={idx}>
                 {item}

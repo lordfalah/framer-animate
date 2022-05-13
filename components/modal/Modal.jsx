@@ -69,7 +69,7 @@ const Modal = ({ children }) => {
           >
             <motion.div
               variants={modalVariant}
-              className="max-w-xl rounded-xl p-5 m-auto
+              className="max-w-sm sm:max-w-xl rounded-xl p-5 m-auto
             bg-white "
             >
               <article className="flex flex-col items-center">
